@@ -167,7 +167,7 @@ const Contact = () => {
         <Snackbar
 
           open={open}
-          autoHideDuration={5000}
+          autoHideDuration={3000}
           onClose={() => setOpen(false)}
           message="Email sent successfully!"
           severity="success"

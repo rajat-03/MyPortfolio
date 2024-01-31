@@ -65,9 +65,9 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
-        name: "MongoDB",
+        name: "Spring Boot",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg",
       },
       {
         name: "Firebase",
@@ -174,6 +174,38 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Quiz App",
+    description:
+      "Built a full-stack quiz platform using React.js, Spring Boot, and MySQL. Enables users to create and take quizzes on various subjects. Implemented responsive design for optimal user experience",
+    image:  "https://i.pinimg.com/564x/c0/32/48/c032484f81505d91cdcd8a27e8d65e71.jpg",
+    tags: ["React", "MySql", "Java","SpringBoot"],
+    github: "https://github.com/rajat-03/Quiz-App",
+    webapp: "https://quiz-app-rajat-03.vercel.app",
+  },
+  {
+    id: 1,
+    title: "Currency Converter",
+    description:
+      "Developed a currency converter application using React.js, integrating real-time currency exchange rates via API. Empowers users to convert currencies with access to comprehensive currency data for conversions. Utilized Tailwind CSS for responsive design, ensuring optimal user experience across devices.",
+    image: "https://img.freepik.com/free-vector/indian-rupee-currency-exchange_23-2147998469.jpg?w=740&t=st=1706718251~exp=1706718851~hmac=f6dc0341e3bd53d5a8e3ac6b9b53f8578ef2069fb88c43be466f509d83aec050",
+    tags: ["React.js", "API Integration", "Tailwind CSS"],
+    github: "https://github.com/rajat-03/Currency-Converter.git",
+    webapp: "https://currency-converter-rajat-03.vercel.app",
+    
+  },
+  {
+    id: 2,
+    title: "Weather App",
+    description:
+      "Developed a React-based web application for real-time weather updates, utilizing HTML, CSS, and JavaScript. Integrated OpenWeatherMap API for city-specific weather data, with location-based search functionality. Ensured seamless user experience across mobile and desktop platforms using Material-UI.",
+    image: "https://nordicapis.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App-1024x576.png",
+    tags: ["React.js", "Responsive Design", "Material-UI","API Integration"],
+    github: "https://github.com/rajat-03/Weather_App.git",
+    webapp: "https://weather-app-rajat-03.vercel.app/",
+
+  },
+  {
+    id: 3,
     title: "Leave Mangement System",
     description:
       "Designed an intuitive interface with HTML, CSS, and JavaScript to streamline leave request submission, leave balance tracking, and request status monitoring. PHP used to facilitate secure server-side processing and database management.",
@@ -181,28 +213,29 @@ export const projects = [
       "https://www.scnsoft.com/blog-pictures/software-development-outsourcing/leave-management-software.png",
     tags: ["HTML", "CSS", "Javascript", "PHP"],
     github: "https://github.com/rajat-03/Leave-Mangement-System.git",
+    webapp: "https://leave-management-portal.000webhostapp.com",
+
   },
   {
-    id: 1,
-    title: "Price Tracker",
+    id: 4,
+    title: "Contact Management App ",
     description:
-      "Created a Python application that tracks prices using web scraping. A user-friendly interface. Monitoring of product data from popular e-commerce websites.",
+      "This is a React contact management application that allows users to add, update, delete and search for contacts. The app integrates with Firebase for storing contact data.",
     image:
-      "https://d2bw95mh2ee04s.cloudfront.net/prod/content/wp-content/uploads/2021/07/23140751/best-amazon-price-tracker-app.jpeg.webp",
-    tags: [
-      "Python",
-      "Web Scraping",
-    ],
+      "https://img.freepik.com/premium-vector/contact-list-icon-contacts-management-service-web-app-mobile-app-smartphone-vector-illustration_642540-113.jpg?w=740",
+    tags: [ "React.js", "Firebase", "CRUD Operations"],
     github: "https://github.com/rajat-03/Price-Tracker.git",
+    webapp: "https://contact-management-app-dusky.vercel.app",
   },
   {
-    id: 2,
+    id: 5,
     title: "Password-Generator-Extension",
     description:
       "Chrome extension using JavaScript to provide a secure password generator directly within the browser. Generates strong and unique passwords by combining letters, numbers, and symbols.",
     image: "https://lh3.googleusercontent.com/5Ad0iqLusa2lHuGzGqD1iOK6qZfsmOik54M4WP5sA74_5wwVLVpShsm2uO9FVXcwBpHuH0l1VehFUrH6sNLqUw9sHA=w640-h400-e365-rj-sc0x00ffffff",
     tags: ["HTML", "CSS", "Javascript"],
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+    github: "https://github.com/rajat-03/Password-Generator-Extension.git",
+    webapp: "https://currency-converter-rajat-03.vercel.app",
   },
-  
+
 ];
