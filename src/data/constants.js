@@ -193,7 +193,7 @@ export const projects = [
       "https://res.cloudinary.com/dkwafvqer/image/upload/v1710879537/Portfolio_Images/article-summarizer-dp_modrxd.png",
     tags: ["React.js", "ChatGPT", "JavaScript", "Tailwind CSS"],
     github: "https://github.com/rajat-03/Article-Summarizer.git",
-    webapp: "https://article-summarizer-rosy.vercel.app",
+    webapp: "https://article-summarizer.rajatkr.tech",
   },
   {
     id: 2,
@@ -270,6 +270,6 @@ export const projects = [
       "https://res.cloudinary.com/dkwafvqer/image/upload/v1710880381/Portfolio_Images/Password-Generator-Extension-Image_ankthw.jpg",
     tags: ["HTML", "CSS", "Javascript"],
     github: "https://github.com/rajat-03/Password-Generator-Extension.git",
-    webapp: "https://currency-converter-rajat-03.vercel.app",
+    webapp: "https://github.com/rajat-03/Password-Generator-Extension.git",
   },
 ];
