@@ -1,10 +1,11 @@
+import Image from "next/image"
 
 
 const EducationCard = ({ education }: any) => {
     return (
         <div className="w-[650px] rounded-[10px] shadow-[rgba(23,92,230,0.15)_0px_4px_24px] p-[12px_16px] justify-between relative overflow-hidden flex flex-col gap-[12px] transition-all duration-300 ease-in-out hover:shadow-[0px_0px_20px_rgba(0,0,0,0.2)] hover:translate-y-[-5px] border-[0.1px] border-[#854CE6] max-[768px]:p-[10px] max-[768px]:gap-2 max-[768px]:w-[300px]">
             <div className="w-full flex gap-3">
-                {/* <img className="h-[50px] bg-black rounded-[10px] mt-1 max-[768px]:h-[40px]" src={education.img} /> */}
+                <Image width={50} height={50} className="h-[50px] bg-black rounded-[10px] mt-1 max-[768px]:h-[40px]" src={education.img} alt="logo"/>
                 <div className="w-full flex flex-col">
                     <div className="font-semibold text-lg text-[rgba(242,243,244,0.6)] max-[768px]:text-sm">{education.school}</div>
                     <div className="font-medium text-sm text-[rgba(177,178,179,0.6)] max-[768px]:text-xs">{education.degree}</div>

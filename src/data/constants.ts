@@ -177,7 +177,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    //img: "vitLogo.jpg",
+    img: "https://res.cloudinary.com/dkwafvqer/image/upload/v1735908583/Portfolio_Images/vit_logo_jjdbsa.png",
     school: "Vellore Institution Of Technology, Vellore",
     date: "Sept 2022 - May 2024",
     grade: "9.15 CGPA",
@@ -185,7 +185,7 @@ export const education = [
   },
   {
     id: 1,
-    // img: "lnmiLogo.jpg",
+    img: "https://res.cloudinary.com/dkwafvqer/image/upload/v1735908921/Portfolio_Images/lnmi_logo_xihonq.png",
     school:
       "L N Mishra Institute of Economic Development And Social Change, Patna",
     date: "Aug 2019 - July 2022",
@@ -194,7 +194,7 @@ export const education = [
   },
   {
     id: 2,
-    // img: "neps.png",
+    img: "https://res.cloudinary.com/dkwafvqer/image/upload/v1735908767/Portfolio_Images/neps_logo2_wbkc06.png",
     school: "New Era Public School, Patna",
     date: "Apr 2017 - Apr 2019",
     grade: "69.4%",
@@ -202,7 +202,7 @@ export const education = [
   },
   {
     id: 3,
-    // img: "neps",
+    img: "https://res.cloudinary.com/dkwafvqer/image/upload/v1735908767/Portfolio_Images/neps_logo2_wbkc06.png",
     school: "New Era Public School, Patna",
     date: "Apr 2015 - Apr 2017",
     grade: "10.0 CGPA",
