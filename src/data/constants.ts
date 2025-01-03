@@ -139,7 +139,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://res.cloudinary.com/dkwafvqer/image/upload/v1735906183/apple-touch-icon-180x180_bpfub0.png",
+    img: "https://res.cloudinary.com/dkwafvqer/image/upload/v1735906183/Portfolio_Images/apple-touch-icon-180x180_bpfub0.png",
     role: "Software Engineer",
     company: "Cantilever Labs Pvt. Ltd.",
     date: "July 2024 - Present",
@@ -156,7 +156,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://res.cloudinary.com/dkwafvqer/image/upload/v1735906509/467576008_122098048952644619_3151158237521215127_n_kuhdts.jpg",
+    img: "https://res.cloudinary.com/dkwafvqer/image/upload/v1735906509/Portfolio_Images/467576008_122098048952644619_3151158237521215127_n_kuhdts.jpg",
     role: "Web Developer Intern",
     company: "Techinnovation App Pvt. Ltd.",
     date: "Nov 2023 - April 2024",
