@@ -136,6 +136,44 @@ export const skills = [
   },
 ];
 
+export const experiences = [
+  {
+    id: 0,
+    img: "https://res.cloudinary.com/dkwafvqer/image/upload/v1735906183/apple-touch-icon-180x180_bpfub0.png",
+    role: "Software Engineer",
+    company: "Cantilever Labs Pvt. Ltd.",
+    date: "July 2024 - Present",
+    desc: "Built a secure admin dashboard with JWT and RBAC, automated testing with GitHub Actions, and developed an AI Interview Module with generative AI. Migrated ReactJS apps to Next.js with caching optimizations and deployed production on AWS with S3 and CloudFront.",
+    skills: [
+      "Next Js",
+      "React Js",
+      "JavaScript",
+      "TypeScript",
+      "Node Js",
+      "Docker",
+      "AWS",
+    ],
+  },
+  {
+    id: 1,
+    img: "https://res.cloudinary.com/dkwafvqer/image/upload/v1735906509/467576008_122098048952644619_3151158237521215127_n_kuhdts.jpg",
+    role: "Web Developer Intern",
+    company: "Techinnovation App Pvt. Ltd.",
+    date: "Nov 2023 - April 2024",
+    desc: "Developed 5+ high-performance websites using React, Next.js, and Tailwind CSS, focusing on optimized user interfaces and seamless performance. Migrated legacy systems to the MERN stack (MongoDB, Express, React, Node.js), improving code efficiency, maintainability, and scalability.",
+    skills: [
+      "React Js",
+      "Redux",
+      "Node Js",
+      "Express Js",
+      "Tailwind CSS",
+      "JavaScript",
+    ],
+  }
+
+];
+
+
 export const education = [
   {
     id: 0,

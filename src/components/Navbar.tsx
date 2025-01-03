@@ -26,6 +26,7 @@ const Navbar = () => {
         <div className="w-full flex items-center justify-center gap-8 px-1 list-none max-[768px]:hidden">
           <Link href="#about" className="text-white font-medium cursor-pointer transition-all duration-200 ease-in-out no-underline hover:text-purple-600 active:border-b-2 border-purple-600"> About </Link>
           <Link href="#skills" className="text-white font-medium cursor-pointer transition-all duration-200 ease-in-out no-underline hover:text-purple-600 active:border-b-2 border-purple-600"> Skills </Link>
+          <Link href="#experience" className="text-white font-medium cursor-pointer transition-all duration-200 ease-in-out no-underline hover:text-purple-600 active:border-b-2 border-purple-600"> Experience </Link>
           <Link href="#projects" className="text-white font-medium cursor-pointer transition-all duration-200 ease-in-out no-underline hover:text-purple-600 active:border-b-2 border-purple-600"> Projects </Link>
           <Link href="#education" className="text-white font-medium cursor-pointer transition-all duration-200 ease-in-out no-underline hover:text-purple-600 active:border-b-2 border-purple-600"> Education </Link>
         </div>

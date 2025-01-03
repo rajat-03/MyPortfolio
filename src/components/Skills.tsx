@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const SkillSection = () => {
     return (
-        <div id="skills" className='flex flex-col justify-center relative z-10 items-center pb-[70px]'>
+        <div id="skills" className='flex flex-col justify-center relative z-10 items-center'>
             <div className='@apply relative flex justify-between items-center flex-col w-full max-w-[1100px] gap-[12px]'>
                 <div className='text-[42px] text-center font-semibold mt-5 text-text_primary max-[768px]:mt-3 max-[768px]:text-[32px]'>Skills</div>
                 <div className='text-[18px] text-center max-w-[600px] text-text_secondary max-[768px]:text-base'>Here are some of my skills on which I have been working on.

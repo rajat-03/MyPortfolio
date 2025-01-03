@@ -1,6 +1,7 @@
 import Contact from "@/components/Contact";
 import { ModalProvider } from "@/components/csr-components/ModalProvider";
 import Education from "@/components/Education";
+import Experience from "@/components/Experience";
 // import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ProjectDetails from "@/components/ProjectDetails";
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <div className="wrapper">
           <SkillSection />
+          <Experience />
         </div>
         <Projects />
         <div className="wrapper">

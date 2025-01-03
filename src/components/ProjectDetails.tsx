@@ -3,6 +3,7 @@ import { Modal } from "@mui/material";
 import { IoMdClose } from "react-icons/io";
 import { useModal } from "./csr-components/ModalProvider";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProjectDetails = () => {
     const { isModalOpen, closeModal, modalData } = useModal();
@@ -42,20 +43,20 @@ const ProjectDetails = () => {
                     </div>
 
                     <div className="flex justify-end my-3 gap-3">
-                        <a
+                        <Link
                             href={project?.github}
                             target="new"
                             className="w-full text-center text-base font-semibold text-text_primary py-3 px-4 rounded-lg cursor-pointer no-underline  transition-all duration-500 ease-linear bg-bgLight hover:bg-[rgba(133,76,230,0.6)] max-[600px]:text-xs"
                         >
                             View Code
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                             href={project?.webapp}
                             target="new"
                             className="w-full text-center text-base font-semibold text-text_primary py-3 px-4 rounded-lg cursor-pointer no-underline  transition-all duration-500 ease-linear bg-primary hover:bg-[rgba(133,76,230,0.6)] max-[600px]:text-xs"
                         >
                             View Live App
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
